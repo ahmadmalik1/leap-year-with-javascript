@@ -3,7 +3,7 @@ body{
     padding: 0px;
     background-color: rgb(238, 238, 238);
 }
-.container{
+.container{ 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,30 +13,37 @@ body{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px gray;
-    min-height: 300px;
+    height: auto;
     width: 400px;
     background-color: white;
 }
 .main > input{
-    width: 280px;
-    border: 1px solid brown;
+    width: 256px;
+    border: 1px solid blue;
     border-radius: 5px;
-    outline: brown;
+    outline: blue;
+    font-size: 17px;
     padding: 10px 20px;
 }
 .main > button{
     border: none;
     color: white;
     font-weight: bold;
-    padding: 12px 16px;
+    padding: 14px 16px;
     border-radius: 5px;
-    background-color: crimson;
+    background-color: blue;
+    cursor: pointer;
 }
-.result{
+.table-box{
     width: auto;
-    height: 300px;
+    height: auto;
     padding: 20px;
-    background-color: antiquewhite;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgb(190, 220, 231);
     margin-top: 20px;
     border-radius: 5px;
+}
+#result{
+    display: block;
 }
